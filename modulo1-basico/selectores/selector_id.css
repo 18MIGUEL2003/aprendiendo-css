@@ -1,0 +1,6 @@
+/*"Este es el código en CSS con un selector de ID que hace referencia a todos los elementos con
+el nombre "hubspot":*/
+#hubspot {
+    color: orange;
+    text-align: right;
+}

@@ -1,0 +1,10 @@
+/*"Este es el código en CSS con un selector de atributo que modificará todos los elementos que 
+contienen «hubspot» en su URL:*/
+
+a[href*=¨hubspot¨] {
+    color: orange;
+}
+
+/*"Ten en cuenta que si el ID del atributo del elemento está escrito en minúsculas el selector
+deberá incluir el nombre en minúsculas. De lo contrario, los elementos con una diferente escritura
+no serán seleccionados."*/

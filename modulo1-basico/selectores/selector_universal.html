@@ -1,0 +1,38 @@
+<!--
+"1. Selector universal
+
+El asterisco (*) es el selector universal en CSS. De forma automática, el asterisco selecciona todos
+los elementos en un documento.
+
+Este selector puede utilizarse en combinación con espacios de nombres (namespace). @namespace es una
+regla que puedes emplear en documentos con muchos espacios de nombres,
+como HTML5, SVG en línea, MathML o XML. Al usar espacios de nombres definidos puedes restringir la
+selección de elementos que se encuentren dentro de ellos.
+
+Sintaxis del selector universal
+Un selector universal puede tener cualquiera de las siguientes sintaxis:
+
+- * o *|* { propiedades de estilo } - selecciona todos los elementos
+- ns|* { propiedades de estilo } - selecciona todos los elementos en el espacio de nombre (ns)
+- |* { propiedades de estilo } - selecciona todos los elementos sin algún espacio de nombre definido
+
+Ejemplo de selector universal
+
+Supongamos que quieres hacer que todos los elementos de tu página sean de color anaranjado.
+En este caso lo mejor es utilizar un selector universal.Así es como luce un documento en HTML:
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="selector_universal.css">
+</head>
+<body>
+    <h1>All elements on the page, from the heading l</h1>
+    <h2 class="pastoral">to the heading 2 with class=pastoral</h2>
+    <p>to the paragraph will be orange</p>
+</body>
+</html>

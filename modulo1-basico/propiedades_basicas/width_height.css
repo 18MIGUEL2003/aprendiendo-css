@@ -1,0 +1,18 @@
+/*
+Configuración CSS de altura y ancho
+
+Las propiedades height y width utilizan para establecer la altura y el ancho de un elemento.
+
+Las propiedades de altura y ancho no incluyen relleno, bordes ni márgenes. Establece la altura y el
+ancho del área dentro del relleno, el borde y el margen del elemento.
+
+Valores de altura y ancho CSS
+
+Las propiedades heighty widthpueden tener los siguientes valores:
+
+- auto- Este es el valor predeterminado. El navegador calcula la altura y el ancho.
+- length- Define la altura/ancho en px, cm, etc.
+- %- Define la altura/ancho en porcentaje del bloque contenedor.
+- initial- Establece la altura/ancho a su valor predeterminado
+- inherit- La altura/ancho se heredará de su valor padre.
+*/

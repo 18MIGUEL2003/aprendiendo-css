@@ -1,0 +1,4 @@
+/* "Este es el código en CSS con un selector universal para todos lo elementos: */
+* {
+    color: orange;
+}

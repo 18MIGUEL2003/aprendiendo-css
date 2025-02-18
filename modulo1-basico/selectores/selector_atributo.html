@@ -1,0 +1,52 @@
+<!--
+"5. Selector de atributo
+
+Los selectores de atributo están hechos para seleccionar todos los elementos que correspondan a un
+atributo específico o a un valor de atributo definido. Por ejemplo, a[href] elegirá todos los enlaces,
+mientras que a[href*="hubspot"] únicamente escogerá todas las URL que contengan la palabra «hubspot».
+
+Puedes utilizar este tipo de selector para aplicar reglas de CSS a elementos que tienen un valor de
+atributo, por lo que si quieres modificar el estilo de todos los elementos que contengan «hubspot»
+en su URL, deberás utilizar a[href*="hubspot"].
+
+Por otro lado, también puedes utilizar un espacio de nombre en combinación con este selector para
+restringir la búsqueda a elementos dentro de ese espacio.
+
+Sintaxis del selector de atributo
+
+Algunas de las sintaxis disponibles para el selector de atributo son las siguientes:
+
+- [attr] { propiedades de estilo }
+- [attr=value] { propiedades de estilo }
+- [attr~=value] { propiedades de estilo }
+- [attr|=value] { propiedades de estilo }
+- [attr^=value] { propiedades de estilo }
+- [attr$=value] { propiedades de estilo }
+- [attr*=value] { propiedades de estilo }
+
+La elección de una de estas sintaxis dependerá de si los elementos que quieres seleccionar tienen
+atributos que han sido ajustados a un valor específico.
+
+Ejemplo de selector de atributo
+
+Supongamos que quieres hacer que todos los links que contienen «hubspot» cambien el color de la URL
+a anaranjado. En este caso puedes utilizar a[href*="hubspot"].
+
+Así es como luciría el código en HTML:
+-->+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector de Atributo</title>
+</head>
+<body>
+    <ul>
+        <li><a href="http://blog.com">blog.com</a></li>
+        <li><a href="http://hubspot.com">blog.com</a></li>
+        <li><a href="http://google.com">blog.com</a></li>
+        <li><a href="http://blog.hubspot.com">blog.com</a></li>
+    </ul>
+</body>
+</html>
