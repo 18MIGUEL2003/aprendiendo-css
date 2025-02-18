@@ -1,0 +1,19 @@
+body {
+    background-image: url(https://img.freepik.com/vector-gratis/patrones-fisuras-fresas_179234-310.jpg?semt=ais_hybrid);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.principal {
+    background-color: pink;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+.titulo {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.item p {
+    display: inline-block;
+    width: 50%;
+}
