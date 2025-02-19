@@ -1,0 +1,66 @@
+<!--
+🔹 Pseudo-clases (:)
+Las pseudo-clases permiten aplicar estilos a elementos en estados específicos, como cuando el usuario
+interactúa con ellos.
+
+🔹 Pseudo-elementos (::)
+Los pseudo-elementos permiten aplicar estilos a partes específicas de un elemento, como la primera
+letra o el primer renglón.
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-clases y Pseudo-elementos</title>
+    <style>
+        /* Pseudo-clases */
+        a:hover {
+            color: red; /* Cambia el color al pasar el mouse */
+        }
+
+        input:focus {
+            background-color: lightgray; /* Cambia el fondo cuando está en foco */
+        }
+
+        li:nth-child(odd) {
+            background-color: #f2f2f2; /* Aplica un color de fondo a los elementos impares */
+        }
+
+        /* Pseudo-elementos */
+        p::first-letter {
+            font-size: 2em;
+            color: blue; /* Agranda y cambia el color de la primera letra */
+        }
+
+        h1::before {
+            content: "🔥 ";
+            color: orange; /* Agrega un emoji antes del título */
+        }
+
+        button::after {
+            content: " →";
+            font-weight: bold; /* Agrega una flecha después del texto del botón */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Pseudo-elementos y Pseudo-clases</h1>
+
+    <p>Este es un párrafo de ejemplo para mostrar los estilos.</p>
+
+    <a href="#">Enlace de prueba</a>
+
+    <input type="text" placeholder="Escribe aquí">
+
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+
+    <button>Enviar</button>
+
+</body>
+</html>

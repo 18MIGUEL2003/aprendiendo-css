@@ -1,0 +1,76 @@
+/*
+- La primera línea después del header es background. Con este atributo definimos el color RGBA del fondo
+de la barra de menú de navegación HTML. En este caso, hemos seleccionado negro con una opacidad del 70%.
+
+- La siguiente línea es el ancho al hacer un menú de navegación en HTML y lo hemos puesto para que se
+vea en toda la pantalla, de lado a lado.
+
+- El atributo position: fixed indica que, para hacer el menú de
+navegación en HTML, este debe quedarse quieto; es decir, si bajamos en la web, el menú nos acompañará
+en todo momento.
+
+- Finalmente, z-index sirve para especificar el orden en el que se amontonan los elementos.
+En este caso, ubica el menú sobre todos los demás elementos.
+*/
+header {
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+/*
+Con este código de nav CSS, especificamos que la barra de navegación HTML debe estar alineada a la
+izquierda de la página.*/
+nav {
+    float: left;
+}
+/*
+- Ahora modificamos el estilo de la lista de la barra de navegación HTML de nav CSS. Con list-style
+especificamos la forma de la viñeta de cada elemento de la lista. Para nuestro caso, no vamos a usar
+ninguna forma por la que definimos esta propiedad con none.
+
+- Con la propiedad overflow eliminamos los errores que se puedan dar por contenido fuera de nuestro
+bloque de menú de navegación en HTML.
+
+- Con overflow: hidden hacemos que todo contenido fuera del bloque del menú se corte y se invisibilice.
+*/
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+}
+/*
+- Este fragmento de código de nav CSS es muy importante al hacer un menú de navegación en HTML.
+En él, establecemos que los submenús o páginas se muestran horizontalmente y no uno debajo del otro.
+Esto se consigue con la línea float: left para la barra de navegación HTML.
+
+- La propiedad font-family indica qué tipo de fuente tendrán los menús. En este caso, existen 3 tipografías
+por si surge algún problema de incompatibilidad.
+
+- La última línea define el tamaño de letra de cada elemento para hacer un menú de navegación en HTML.
+*/
+nav ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 20px;
+}
+/*
+- Es momento de trabajar los elementos anchor (a) o los enlaces. Primero lo convertiremos en un bloque
+con display: block. De esta forma, ya podemos agregarle un padding, lo que mejorará visualmente nuestro
+menú y reduciremos los errores de dimensión.
+
+- Con la propiedad color especificamos el color de los enlaces, y con la línea text-decoration decidimos
+si queremos algún tipo de decoración, como el subrayado. En este caso no vamos a usar ninguna.
+*/
+nav ul li a {
+    display: block; 
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+/*
+- Finalmente, seleccionamos qué color queremos ver al posarnos sobre un elemento.
+Con la propiedad background le especificamos el color por medio del sistema HEX de colores.
+*/
+nav ul li:hover {
+    background: #eca023;
+}
