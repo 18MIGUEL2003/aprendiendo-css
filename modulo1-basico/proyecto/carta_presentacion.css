@@ -3,17 +3,80 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.todo {
+    margin-top: 200px;
+}
 .principal {
     background-color: pink;
     width: 50%;
     height: 50%;
-    text-align: center;
+    margin-left: 400px;
 }
 .titulo {
     color: white;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border: rgb(245, 91, 91) 5px solid;
+    margin: 0;
+    border-radius: 50px;
+    background-color: rgb(238, 92, 123);
+    padding: 3px 10px;
+    border: PowderBlue 5px solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .item p {
     display: inline-block;
     width: 50%;
+    text-align: center;
+    font-family: "Be Vietnam Pro", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.ubicacion {
+    background-color: pink;
+    width: 50%;
+    height: 50%;
+    margin-left: 400px;
+}
+.titulo2 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border: rgb(245, 91, 91) 5px solid;
+    margin: 0;
+    border-radius: 50px;
+    background-color: rgb(238, 92, 123);
+    padding: 3px 10px;
+    border: PowderBlue 5px solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.contacto {
+    background-color: pink;
+    width: 50%;
+    height: 50%;
+    margin-left: 400px;
+}
+.titulo3 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border: rgb(245, 91, 91) 5px solid;
+    margin: 0;
+    border-radius: 50px;
+    background-color: rgb(238, 92, 123);
+    padding: 3px 10px;
+    border: PowderBlue 5px solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
 }
